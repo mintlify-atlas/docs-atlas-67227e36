@@ -1,0 +1,97 @@
+{
+  "projectType": "cli-tool",
+  "projectName": "Alcubierre",
+  "projectDescription": "A Roblox Badge-to-Badge Place Teleporter for automated badge collection across multiple experiences",
+  "theme": "aspen",
+  "primaryColor": "#94cb04",
+  "lightColor": "#545454",
+  "darkColor": null,
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "introduction",
+          "installation",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Usage",
+        "pages": [
+          "usage/creating-lists",
+          "usage/command-line-options",
+          "usage/environment-files",
+          "usage/guest-mode"
+        ]
+      },
+      {
+        "group": "Configuration",
+        "pages": [
+          "configuration/authentication",
+          "configuration/thresholds",
+          "configuration/platform-options",
+          "configuration/advanced-settings"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/badge-hunting",
+          "guides/bloxstrap-integration",
+          "guides/sober-integration",
+          "guides/troubleshooting"
+        ]
+      },
+      {
+        "group": "Reference",
+        "pages": [
+          "reference/supported-formats",
+          "reference/roblox-types",
+          "reference/exit-codes"
+        ]
+      },
+      {
+        "group": "Development",
+        "pages": [
+          "development/contributing",
+          "development/architecture",
+          "development/building-binaries"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Automated badge collection across multiple Roblox experiences",
+    "Support for badges, places, universes, users, and groups",
+    "Bloxstrap and Sober integration for enhanced Roblox launching",
+    "Flexible filtering with award thresholds and vote ratios",
+    "Environment file support for secure credential management",
+    "Smart detection of one-badge places for automatic closure",
+    "Cross-platform support (Windows, macOS, Linux)",
+    "Sound notifications for important events"
+  ],
+  "publicApiSurface": [
+    "alcubierre [file_path]",
+    "--version",
+    "--env-file, -e",
+    "--rbx-token, -t",
+    "--user-id, -u",
+    "--awarded-threshold, -at",
+    "--vote-threshold, -vt",
+    "--visits-limit, -vl",
+    "--seconds, -s",
+    "--no-bloxstrap, -nbs",
+    "--no-sober, -nsob",
+    "--sober-opts, -sopts",
+    "--open-in-browser, -ob",
+    "--verbose, -v",
+    "--very-verbose, -vv",
+    "--no-detect-one-badge, -ndob",
+    "--cache-directory, -cd",
+    "--user-agent, -ua",
+    "--save-response-cache, -src",
+    "--play-sound, -ps",
+    "--sound-pack"
+  ]
+}
